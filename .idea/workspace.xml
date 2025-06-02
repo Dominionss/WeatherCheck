@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="" />
+    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="added workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/src/setupTests.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,23 +29,47 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2xuYJDVsPDv1qpP8hW5RbFbhveI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "G:/Programming projects/WebStorm",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Shell Script.npm start.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Programming projects/WebStorm&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="npm start" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="npm start" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="powershell.exe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,10 +86,35 @@
       <option name="presentableId" value="Default" />
       <updated>1748789351816</updated>
       <workItem from="1748789352901" duration="7000" />
+      <workItem from="1748789365302" duration="1451000" />
+      <workItem from="1748791116290" duration="2000" />
+      <workItem from="1748877178826" duration="1444000" />
     </task>
+    <task id="LOCAL-00001" summary="Created initial project.">
+      <option name="closed" value="true" />
+      <created>1748789602699</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748789602699</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added workspace.xml">
+      <option name="closed" value="true" />
+      <created>1748789705835</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748789705835</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created initial project." />
+    <MESSAGE value="added workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="added workspace.xml" />
   </component>
 </project>
