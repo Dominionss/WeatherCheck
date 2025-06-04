@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="Hello world program...">
-      <change afterPath="$PROJECT_DIR$/weather-app/src/Card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-app/src/Card.js" afterDir="false" />
+    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="Cards">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/src/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/Card.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,7 @@
       <workItem from="1748789365302" duration="1451000" />
       <workItem from="1748791116290" duration="2000" />
       <workItem from="1748877178826" duration="1486000" />
-      <workItem from="1749049388070" duration="1603000" />
+      <workItem from="1749049388070" duration="2391000" />
     </task>
     <task id="LOCAL-00001" summary="Created initial project.">
       <option name="closed" value="true" />
@@ -114,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748878801576</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cards">
+      <option name="closed" value="true" />
+      <created>1749054887965</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749054887965</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +130,7 @@
     <MESSAGE value="Created initial project." />
     <MESSAGE value="added workspace.xml" />
     <MESSAGE value="Hello world program..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Hello world program..." />
+    <MESSAGE value="Cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cards" />
   </component>
 </project>
