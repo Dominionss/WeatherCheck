@@ -1,0 +1,20 @@
+.Card {
+    /* Box Model Properties */
+    border: 1px solid #ddd; /* A light grey border */
+    border-radius: 8px;    /* Slightly rounded corners */
+    padding: 20px;         /* Space inside the card */
+    margin: 15px;          /* Space around the card */
+    width: 300px;          /* Fixed width for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #ffffff; /* White background */
+
+    /* Flexbox for content alignment (optional, but good for layout) */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;    /* Center items horizontally */
+    text-align: center;     /* Center text within the card */
+
+    /* Text Styling */
+    font-family: Arial, sans-serif; /* Common font */
+    color: #333; /* Dark grey text */
+}
