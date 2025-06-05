@@ -12,9 +12,17 @@ function Card({title, info}) {
         <div className="Card">
             <h2>{ title }</h2>
             <h3>Info: { info }</h3>
-            <h3>{getRandomIntInclusive(1, 100)}</h3>
         </div>
     );
 }
 
+function RandomCard() {
+    return (
+        <div className="RandomCard">
+            <h2>Random number: {getRandomIntInclusive(1, 100)}</h2>
+        </div>
+    );
+}
+
+export { RandomCard };
 export default Card;

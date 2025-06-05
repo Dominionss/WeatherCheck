@@ -1,5 +1,4 @@
-import "./Card";
-import Card from "./Card";
+import Card, { RandomCard } from './Card';
 
 function App() {
     return (
@@ -10,6 +9,8 @@ function App() {
 
             <Card title="Archer" info="He shoots fro the bow." />
             <Card title="Swordman" info="Fighting with a sword." />
+
+            <RandomCard />
 
         </div>
     );
