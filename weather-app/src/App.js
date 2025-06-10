@@ -1,4 +1,5 @@
 import Card, { RandomCard } from './Card';
+import InteractiveButton from "./InteractiveButton";
 
 function App() {
     return (
@@ -11,6 +12,8 @@ function App() {
             <Card title="Swordman" info="Fighting with a sword." />
 
             <RandomCard />
+
+            <InteractiveButton />
 
         </div>
     );
