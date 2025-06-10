@@ -5,7 +5,7 @@ function InteractiveButton() {
 
     return (
         <button onClick={handleClick}>
-            Click Me
+            Click Me...
         </button>
     );
 }
