@@ -1,6 +1,7 @@
 import Card, { RandomCard } from './Card';
 import InteractiveButton from "./InteractiveButton";
 import DynamicButton from "./DynamicButton";
+import ButtonWithEventHandler from "./ButtonWithEventHandler";
 
 function App() {
     return (
@@ -17,6 +18,8 @@ function App() {
             <InteractiveButton />
 
             <DynamicButton />
+
+            <ButtonWithEventHandler />
 
         </div>
     );

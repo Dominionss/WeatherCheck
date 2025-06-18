@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="Little fix.">
-      <change afterPath="$PROJECT_DIR$/weather-app/src/DynamicButton.js" afterDir="false" />
+    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="Dynamic events and useState.">
+      <change afterPath="$PROJECT_DIR$/weather-app/src/ButtonWithEventHandler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/App.js" afterDir="false" />
     </list>
@@ -90,7 +90,7 @@
       <workItem from="1749049388070" duration="3139000" />
       <workItem from="1749121249799" duration="738000" />
       <workItem from="1749556386288" duration="1106000" />
-      <workItem from="1750252759168" duration="1380000" />
+      <workItem from="1750252759168" duration="2132000" />
     </task>
     <task id="LOCAL-00001" summary="Created initial project.">
       <option name="closed" value="true" />
@@ -156,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749558849994</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Dynamic events and useState.">
+      <option name="closed" value="true" />
+      <created>1750254205681</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750254205681</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +190,7 @@
     <MESSAGE value="Multiple cards import." />
     <MESSAGE value="InteractiveButton component." />
     <MESSAGE value="Little fix." />
-    <option name="LAST_COMMIT_MESSAGE" value="Little fix." />
+    <MESSAGE value="Dynamic events and useState." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dynamic events and useState." />
   </component>
 </project>
