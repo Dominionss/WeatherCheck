@@ -1,5 +1,6 @@
 import Card, { RandomCard } from './Card';
 import InteractiveButton from "./InteractiveButton";
+import DynamicButton from "./DynamicButton";
 
 function App() {
     return (
@@ -14,6 +15,8 @@ function App() {
             <RandomCard />
 
             <InteractiveButton />
+
+            <DynamicButton />
 
         </div>
     );
