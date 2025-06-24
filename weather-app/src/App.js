@@ -1,5 +1,6 @@
 import Card, { RandomCard } from './Card';
 import InteractiveButton from "./InteractiveButton";
+import {TextInputWithFocusButton} from "./InteractiveButton";
 import DynamicButton from "./DynamicButton";
 import ButtonWithEventHandler from "./ButtonWithEventHandler";
 import InputComponent from "./InputComponent";
@@ -25,6 +26,8 @@ function App() {
             <h2>Another components:</h2>
 
             <InputComponent />
+
+            <TextInputWithFocusButton />
 
         </div>
     );
