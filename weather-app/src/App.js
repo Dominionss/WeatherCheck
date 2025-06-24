@@ -2,6 +2,7 @@ import Card, { RandomCard } from './Card';
 import InteractiveButton from "./InteractiveButton";
 import DynamicButton from "./DynamicButton";
 import ButtonWithEventHandler from "./ButtonWithEventHandler";
+import InputComponent from "./InputComponent";
 
 function App() {
     return (
@@ -20,6 +21,10 @@ function App() {
             <DynamicButton />
 
             <ButtonWithEventHandler />
+
+            <h2>Another components:</h2>
+
+            <InputComponent />
 
         </div>
     );
