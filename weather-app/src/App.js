@@ -4,6 +4,7 @@ import {TextInputWithFocusButton} from "./InteractiveButton";
 import DynamicButton from "./DynamicButton";
 import ButtonWithEventHandler from "./ButtonWithEventHandler";
 import InputComponent from "./InputComponent";
+import Counter from "./Counter";
 
 function App() {
     return (
@@ -28,6 +29,8 @@ function App() {
             <InputComponent />
 
             <TextInputWithFocusButton />
+
+            <Counter />
 
         </div>
     );
