@@ -32,6 +32,8 @@ function App() {
 
             <Counter />
 
+            Just for commit!
+
         </div>
     );
 }

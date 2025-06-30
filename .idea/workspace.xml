@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="Focus elements.">
-      <change afterPath="$PROJECT_DIR$/weather-app/src/Counter.js" afterDir="false" />
+    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="Counter and states.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/App.js" afterDir="false" />
     </list>
@@ -92,7 +91,8 @@
       <workItem from="1749556386288" duration="1106000" />
       <workItem from="1750252759168" duration="2602000" />
       <workItem from="1750775646010" duration="2399000" />
-      <workItem from="1750866169002" duration="1059000" />
+      <workItem from="1750866169002" duration="3936000" />
+      <workItem from="1751306885393" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="Created initial project.">
       <option name="closed" value="true" />
@@ -190,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750780419186</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Counter and states.">
+      <option name="closed" value="true" />
+      <created>1750867421158</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1750867421158</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +228,7 @@
     <MESSAGE value="Synthetic events." />
     <MESSAGE value="Hooks." />
     <MESSAGE value="Focus elements." />
-    <option name="LAST_COMMIT_MESSAGE" value="Focus elements." />
+    <MESSAGE value="Counter and states." />
+    <option name="LAST_COMMIT_MESSAGE" value="Counter and states." />
   </component>
 </project>
