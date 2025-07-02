@@ -32,7 +32,7 @@ function App() {
 
             <Counter />
 
-            Just for commit! Second time...
+            Just for commit! Second time... Third time...
 
         </div>
     );
