@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="Cheat.Second time(">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/App.js" afterDir="false" />
-    </list>
+    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="Cheat.Third time(" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +91,7 @@
       <workItem from="1750866169002" duration="3936000" />
       <workItem from="1751306885393" duration="56000" />
       <workItem from="1751400847443" duration="65000" />
-      <workItem from="1751485803447" duration="33000" />
+      <workItem from="1751485803447" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="Created initial project.">
       <option name="closed" value="true" />
@@ -216,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751400894993</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Cheat.Third time(">
+      <option name="closed" value="true" />
+      <created>1751485840935</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1751485840935</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +254,7 @@
     <MESSAGE value="Counter and states." />
     <MESSAGE value="Cheat." />
     <MESSAGE value="Cheat.Second time(" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cheat.Second time(" />
+    <MESSAGE value="Cheat.Third time(" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cheat.Third time(" />
   </component>
 </project>
