@@ -5,6 +5,7 @@ import DynamicButton from "./DynamicButton";
 import ButtonWithEventHandler from "./ButtonWithEventHandler";
 import InputComponent from "./InputComponent";
 import Counter from "./Counter";
+import PropDrilling from "./PropDrilling";
 
 function App() {
     return (
@@ -34,6 +35,8 @@ function App() {
 
             Just for commit! Second time... Third time... Fourth time... I will do it!
             Let me tell you something!
+
+        <PropDrilling msg="Hello world!"/>
 
         </div>
     );
