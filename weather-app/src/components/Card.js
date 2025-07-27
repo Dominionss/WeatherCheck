@@ -1,4 +1,4 @@
-import "./Card.css";
+import "../styles/Card.css";
 
 function getRandomIntInclusive(min, max) {
     min = Math.ceil(min);
