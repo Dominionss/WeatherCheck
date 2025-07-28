@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="Props drilling.">
-      <change afterPath="$PROJECT_DIR$/weather-app/src/components/TemperatureInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-app/src/utils/converters.js" afterDir="false" />
+    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="useEffect">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/src/ButtonWithEventHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/components/ButtonWithEventHandler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/src/Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/styles/Card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/src/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/components/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/src/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/components/Counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/src/DynamicButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/components/DynamicButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/src/InputComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/components/InputComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/src/InteractiveButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/components/InteractiveButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/src/PropDrilling.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/components/PropDrilling.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/src/components/DynamicButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/components/DynamicButton.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +105,8 @@
       <workItem from="1751997389369" duration="49000" />
       <workItem from="1752083465317" duration="56000" />
       <workItem from="1752173051020" duration="921000" />
-      <workItem from="1753624651946" duration="1826000" />
+      <workItem from="1753624651946" duration="3408000" />
+      <workItem from="1753716971162" duration="1018000" />
     </task>
     <task id="LOCAL-00001" summary="Created initial project.">
       <option name="closed" value="true" />
@@ -277,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752173977084</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Lifting of state">
+      <option name="closed" value="true" />
+      <created>1753626794245</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1753626794245</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +314,8 @@
     <MESSAGE value="I will do it..." />
     <MESSAGE value="Let me tell you something." />
     <MESSAGE value="Props drilling." />
-    <option name="LAST_COMMIT_MESSAGE" value="Props drilling." />
+    <MESSAGE value="Lifting of state" />
+    <MESSAGE value="useEffect" />
+    <option name="LAST_COMMIT_MESSAGE" value="useEffect" />
   </component>
 </project>

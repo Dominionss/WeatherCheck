@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function DynamicButton() {
     const darkMode = "Dark is working!";
@@ -11,6 +11,10 @@ function DynamicButton() {
         // dinosaurBool = !dinosaurBool;
         setDinosaurMode(prevMode => !prevMode);
     };
+
+    useEffect(() => {
+        console.log(`Dynamic Button changed state on: ${dinosaurMode}`);
+    }, [dinosaurMode]);
 
     return (
         <div className="DynamicButton">
