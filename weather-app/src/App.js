@@ -12,6 +12,17 @@ import PropDrilling from "./components/PropDrilling";
 import TemperatureInput from './components/TemperatureInput';
 import { toCelsius, toFahrenheit, tryConvert } from './utils/converters';
 
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+function Test() {
+
+    return(
+        <div>
+            Test
+        </div>
+    );
+}
+
 function App() {
 
     const [temperature, setTemperature] = useState('');
