@@ -12,18 +12,11 @@ import PropDrilling from "./components/PropDrilling";
 import TemperatureInput from './components/TemperatureInput';
 import { toCelsius, toFahrenheit, tryConvert } from './utils/converters';
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import Home from './components/Home';
+import About from './components/About';
 
 function Test() {
-
-    return(
-        <div>
-            Test
-        </div>
-    );
-}
-
-function App() {
 
     const [temperature, setTemperature] = useState('');
     const [scale, setScale] = useState('c');
@@ -41,8 +34,8 @@ function App() {
     const celsius = scale === 'f' ? tryConvert(temperature, toCelsius) : temperature;
     const fahrenheit = scale === 'c' ? tryConvert(temperature, toFahrenheit) : temperature;
 
-    return (
-        <div className="App">
+    return(
+        <div>
             Hello World!
 
             <h2>Cards:</h2>
@@ -83,6 +76,31 @@ function App() {
                 temperature={fahrenheit}
                 onTemperatureChange={handleFahrenheitChange}
             />
+        </div>
+    );
+}
+
+function App() {
+
+
+
+    return (
+        <div className="App">
+            <BrowserRouter>
+                <nav>
+                    <Link to="/" className="nav-item">Homepage</Link>
+                    <Link to="/about" className="nav-item">About WeatherCheck</Link>
+                    <Link to="/test" className="nav-item">Test</Link>
+                </nav>
+
+                <Routes>
+                    <Route path="/" element={<Home />}/>
+                    <Route path="/about" element={<About />}/>
+                    <Route path="/test" element={<Test />}/>
+                </Routes>
+            </BrowserRouter>
+
+            Here will be another components!
 
         </div>
     );
