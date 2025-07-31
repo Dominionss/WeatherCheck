@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="Routing, Test component">
-      <change afterPath="$PROJECT_DIR$/weather-app/src/components/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-app/src/components/Home.js" afterDir="false" />
+    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="Correct routing!">
+      <change afterPath="$PROJECT_DIR$/weather-app/src/components/ConditionalComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/App.js" afterDir="false" />
     </list>
@@ -109,7 +108,8 @@
       <workItem from="1752173051020" duration="921000" />
       <workItem from="1753624651946" duration="3408000" />
       <workItem from="1753716971162" duration="2452000" />
-      <workItem from="1753884646362" duration="1811000" />
+      <workItem from="1753884646362" duration="3094000" />
+      <workItem from="1753944490250" duration="1828000" />
     </task>
     <task id="LOCAL-00001" summary="Created initial project.">
       <option name="closed" value="true" />
@@ -295,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753885831719</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Correct routing!">
+      <option name="closed" value="true" />
+      <created>1753886765835</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1753886765835</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +344,7 @@
     <MESSAGE value="Lifting of state" />
     <MESSAGE value="useEffect" />
     <MESSAGE value="Routing, Test component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Routing, Test component" />
+    <MESSAGE value="Correct routing!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct routing!" />
   </component>
 </project>

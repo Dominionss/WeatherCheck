@@ -8,6 +8,7 @@ import ButtonWithEventHandler from "./components/ButtonWithEventHandler";
 import InputComponent from "./components/InputComponent";
 import Counter from "./components/Counter";
 import PropDrilling from "./components/PropDrilling";
+import ConditionalComponent from "./components/ConditionalComponent";
 
 import TemperatureInput from './components/TemperatureInput';
 import { toCelsius, toFahrenheit, tryConvert } from './utils/converters';
@@ -76,6 +77,10 @@ function Test() {
                 temperature={fahrenheit}
                 onTemperatureChange={handleFahrenheitChange}
             />
+
+            <ConditionalComponent condition={true} />
+            <ConditionalComponent condition={false} />
+
         </div>
     );
 }
