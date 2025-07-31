@@ -92,7 +92,7 @@ function App() {
     return (
         <div className="App">
             <BrowserRouter>
-                <nav>
+                <nav style={{display: 'flex', gap: '10px', margin: "20px"}}>
                     <Link to="/" className="nav-item">Homepage</Link>
                     <Link to="/about" className="nav-item">About WeatherCheck</Link>
                     <Link to="/test" className="nav-item">Test</Link>
