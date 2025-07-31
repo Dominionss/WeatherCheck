@@ -8,17 +8,19 @@ function ConditionalComponent({condition}) {
     let message;
 
     if (condition) {
-        message = truth;
+        return(
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', border: '1px solid green'}}>
+                <p>{truth}</p>
+            </div>
+        );
     }
     else {
-        message = lie;
+        return(
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', border: '1px solid red'}}>
+                <p>{lie}</p>
+            </div>
+        );
     }
-
-    return(
-        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', border: '1px solid black'}}>
-            <p>{message}</p>
-        </div>
-    );
 }
 
 
