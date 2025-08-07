@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="Advanced conditional rendering">
+    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="Navbar update">
+      <change afterPath="$PROJECT_DIR$/weather-app/src/assets/images/cloud.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/components/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,26 +34,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Shell Script.npm start.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Programming projects/WebStorm&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Node.js.App.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Shell Script.npm start.executor": "Run",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "G:/Programming projects/WebStorm/WeatherCheck/weather-app/src/assets/images",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Programming projects\WebStorm\WeatherCheck\weather-app\src\assets\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Programming projects\WebStorm\WeatherCheck\weather-app\src\assets\images" />
       <recent name="G:\Programming projects\WebStorm\WeatherCheck\weather-app\src\styles" />
       <recent name="G:\Programming projects\WebStorm\WeatherCheck\weather-app\src\components" />
     </key>
@@ -108,7 +114,9 @@
       <workItem from="1753624651946" duration="3408000" />
       <workItem from="1753716971162" duration="2452000" />
       <workItem from="1753884646362" duration="3094000" />
-      <workItem from="1753944490250" duration="2521000" />
+      <workItem from="1753944490250" duration="3493000" />
+      <workItem from="1753967058118" duration="2454000" />
+      <workItem from="1754565485499" duration="708000" />
     </task>
     <task id="LOCAL-00001" summary="Created initial project.">
       <option name="closed" value="true" />
@@ -318,7 +326,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753950778115</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Navbar update">
+      <option name="closed" value="true" />
+      <created>1753951341294</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1753951341294</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +352,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added workspace.xml" />
     <MESSAGE value="Hello world program..." />
     <MESSAGE value="Cards" />
     <MESSAGE value="Random numbers in cards." />
@@ -361,6 +376,7 @@
     <MESSAGE value="Correct routing!" />
     <MESSAGE value="Condition rendering" />
     <MESSAGE value="Advanced conditional rendering" />
-    <option name="LAST_COMMIT_MESSAGE" value="Advanced conditional rendering" />
+    <MESSAGE value="Navbar update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Navbar update" />
   </component>
 </project>

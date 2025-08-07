@@ -87,7 +87,7 @@ function Test() {
 
 function App() {
 
-
+    
 
     return (
         <div className="App">
@@ -105,7 +105,7 @@ function App() {
                 </Routes>
             </BrowserRouter>
 
-            Here will be another components!
+            We need to add footer here!
 
         </div>
     );
