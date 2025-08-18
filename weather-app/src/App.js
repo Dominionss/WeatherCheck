@@ -10,6 +10,7 @@ import Counter from "./components/Counter";
 import PropDrilling from "./components/PropDrilling";
 import ConditionalComponent from "./components/ConditionalComponent";
 import Timer from "./components/Timer";
+import ListComponent from "./components/ListComponent";
 
 import TemperatureInput from './components/TemperatureInput';
 import { toCelsius, toFahrenheit, tryConvert } from './utils/converters';
@@ -83,6 +84,8 @@ function Test() {
             <ConditionalComponent condition={false} />
 
             <Timer />
+
+            <ListComponent />
 
         </div>
     );
