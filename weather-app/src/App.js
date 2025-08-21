@@ -11,6 +11,7 @@ import PropDrilling from "./components/PropDrilling";
 import ConditionalComponent from "./components/ConditionalComponent";
 import Timer from "./components/Timer";
 import ListComponent from "./components/ListComponent";
+import SubmitForm from "./components/SubmitForm";
 
 import TemperatureInput from './components/TemperatureInput';
 import { toCelsius, toFahrenheit, tryConvert } from './utils/converters';
@@ -80,12 +81,18 @@ function Test() {
                 onTemperatureChange={handleFahrenheitChange}
             />
 
-            <ConditionalComponent condition={true} />
-            <ConditionalComponent condition={false} />
+            <ConditionalComponent condition={true}/>
+            <ConditionalComponent condition={false}/>
 
-            <Timer />
+            <Timer/>
 
-            <ListComponent />
+            <ListComponent/>
+
+            <hr/>
+
+            <SubmitForm/>
+
+            <hr/>
 
         </div>
     );
