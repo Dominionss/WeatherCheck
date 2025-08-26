@@ -1,6 +1,14 @@
 import React, { useState } from 'react';
 
 
+function PasswordErrorMessage() {
+    return(
+        <div>
+            <p style={{color: "red"}}>Your password should be more than 4 symbols!</p>
+        </div>
+    );
+}
+
 function SignUpForm() {
     const [formData, setFormData] = useState({
         firstName: "",
@@ -8,6 +16,7 @@ function SignUpForm() {
         email: "",
         password: "",
         role: "",
+        isPasswordTouched: false,
     });
 
     const handleChange = (e) => {
@@ -25,6 +34,7 @@ function SignUpForm() {
             email: "",
             password: "",
             role: "",
+            isPasswordTouched: false,
         });
     };
 
@@ -75,6 +85,11 @@ function SignUpForm() {
                     placeholder="Password"
                     value={formData.password}
                     onChange={handleChange}
+
+                    onBlur={() =>
+                        setFormData({ ...formData, isPasswordTouched: true })
+                    }
+
                     required
                 />
             </label>
@@ -96,6 +111,10 @@ function SignUpForm() {
             <button type="submit" style={styles.button}>
                 CREATE ACCOUNT
             </button>
+
+            {formData.isPasswordTouched && formData["password"].length < 5 ? (
+                <PasswordErrorMessage />
+            ) : null}
         </form>
     );
 }
