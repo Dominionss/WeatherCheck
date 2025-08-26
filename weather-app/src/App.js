@@ -13,6 +13,7 @@ import Timer from "./components/Timer";
 import ListComponent from "./components/ListComponent";
 import SubmitForm from "./components/SubmitForm";
 import PreviousValueExample from "./components/PreviousValueExample";
+import SignUpForm from "./components/SignUpForm";
 
 import TemperatureInput from './components/TemperatureInput';
 import { toCelsius, toFahrenheit, tryConvert } from './utils/converters';
@@ -95,7 +96,13 @@ function Test() {
 
             <hr/>
 
-            <PreviousValueExample />
+            <PreviousValueExample/>
+
+            <hr/>
+
+            <SignUpForm/>
+
+            <hr/>
 
         </div>
     );
