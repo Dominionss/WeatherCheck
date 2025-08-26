@@ -19,6 +19,13 @@ function SignUpForm() {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log("Form submitted:", formData);
+
+        setFormData({ firstName: "",
+            lastName: "",
+            email: "",
+            password: "",
+            role: "",
+        });
     };
 
     return (
