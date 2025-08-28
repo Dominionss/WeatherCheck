@@ -15,6 +15,9 @@ import SubmitForm from "./components/SubmitForm";
 import PreviousValueExample from "./components/PreviousValueExample";
 import SignUpForm from "./components/SignUpForm";
 
+import { UserContext } from "./context";
+import ProfileWithContext from "./components/ProfileWithContext";
+
 import TemperatureInput from './components/TemperatureInput';
 import { toCelsius, toFahrenheit, tryConvert } from './utils/converters';
 
@@ -101,6 +104,12 @@ function Test() {
             <hr/>
 
             <SignUpForm/>
+
+            <hr/>
+
+            <UserContext.Provider value={{ name: "Harry" }}>
+                <ProfileWithContext />
+            </UserContext.Provider>
 
             <hr/>
 
