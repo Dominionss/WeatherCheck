@@ -17,6 +17,7 @@ import SignUpForm from "./components/SignUpForm";
 
 import { UserContext } from "./context";
 import ProfileWithContext from "./components/ProfileWithContext";
+import ThemeSwitcher from "./components/ThemeSwitcher";
 
 import TemperatureInput from './components/TemperatureInput';
 import { toCelsius, toFahrenheit, tryConvert } from './utils/converters';
@@ -24,6 +25,7 @@ import { toCelsius, toFahrenheit, tryConvert } from './utils/converters';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
+import {ThemeProvider} from "./components/ThemeProvider";
 
 function Test() {
 
@@ -110,6 +112,12 @@ function Test() {
             <UserContext.Provider value={{ name: "Harry" }}>
                 <ProfileWithContext />
             </UserContext.Provider>
+
+            <hr/>
+
+            <ThemeProvider>
+                <ThemeSwitcher/>
+            </ThemeProvider>
 
             <hr/>
 
