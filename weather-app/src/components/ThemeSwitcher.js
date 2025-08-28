@@ -5,10 +5,10 @@ const ThemeSwitcher = () => {
     const { theme, toggleTheme } = useTheme();
 
     return (
-        <div>
+        <div style={{ backgroundColor: theme }}>
             <p>Current theme: {theme}</p>
             <button onClick={toggleTheme}>
-                Switch to {theme === "light" ? "dark" : "light"} mode
+                Switch to {theme === "red" ? "green" : "red"} mode
             </button>
         </div>
     );
