@@ -19,6 +19,8 @@ import { UserContext } from "./context";
 import ProfileWithContext from "./components/ProfileWithContext";
 import ThemeSwitcher from "./components/ThemeSwitcher";
 
+import GoalForm from "./components/GoalForm";
+
 import TemperatureInput from './components/TemperatureInput';
 import { toCelsius, toFahrenheit, tryConvert } from './utils/converters';
 
@@ -44,6 +46,12 @@ function Test() {
 
     const celsius = scale === 'f' ? tryConvert(temperature, toCelsius) : temperature;
     const fahrenheit = scale === 'c' ? tryConvert(temperature, toFahrenheit) : temperature;
+
+    const [goals, setGoals] = useState([]);
+
+    const addGoal = (newGoal) => {
+        setGoals([...goals, newGoal]);
+    };
 
     return(
         <div>
@@ -118,6 +126,18 @@ function Test() {
             <ThemeProvider>
                 <ThemeSwitcher/>
             </ThemeProvider>
+
+            <hr/>
+
+            <h1>My Little Lemon Goals</h1>
+            <GoalForm onAddGoal={addGoal}/>
+            <ul>
+                {goals.map((g, i) => (
+                    <li key={i}>
+                        My goal is to {g.goal}, by {g.by}
+                    </li>
+                ))}
+            </ul>
 
             <hr/>
 
