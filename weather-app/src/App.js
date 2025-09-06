@@ -20,6 +20,7 @@ import ProfileWithContext from "./components/ProfileWithContext";
 import ThemeSwitcher from "./components/ThemeSwitcher";
 
 import GoalForm from "./components/GoalForm";
+import RandomCatFactFetcher from "./components/RandomCatFactFetcher";
 
 import TemperatureInput from './components/TemperatureInput';
 import { toCelsius, toFahrenheit, tryConvert } from './utils/converters';
@@ -117,8 +118,8 @@ function Test() {
 
             <hr/>
 
-            <UserContext.Provider value={{ name: "Harry" }}>
-                <ProfileWithContext />
+            <UserContext.Provider value={{name: "Harry"}}>
+                <ProfileWithContext/>
             </UserContext.Provider>
 
             <hr/>
@@ -138,6 +139,10 @@ function Test() {
                     </li>
                 ))}
             </ul>
+
+            <hr/>
+
+            <RandomCatFactFetcher/>
 
             <hr/>
 
