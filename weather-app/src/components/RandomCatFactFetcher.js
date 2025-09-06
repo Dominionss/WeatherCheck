@@ -1,10 +1,47 @@
-import React from "react";
-
+import React, { useEffect, useState } from "react";
 
 function RandomCatFactFetcher() {
-    return(
+    const [fact, setFact] = useState("");        // store cat fact
+    const [loading, setLoading] = useState(true); // start with loading
+    const [error, setError] = useState(null);    // error state
+
+    const fetchFact = async () => {
+        setLoading(true);   // start loading before fetch
+        setError(null);     // clear previous errors
+
+        try {
+            const response = await fetch("https://catfact.ninja/fact");
+            if (!response.ok) {
+                throw new Error("Failed to fetch cat fact");
+            }
+
+            const data = await response.json();
+
+            // ⏳ Wait 1 second before showing fact
+            setTimeout(() => {
+                setFact(data.fact);
+                setLoading(false);
+            }, 1000);
+
+        } catch (err) {
+            setError(err.message);
+            setLoading(false); // still stop loading if error
+        }
+    };
+
+    // Fetch a fact on first render
+    useEffect(() => {
+        fetchFact();
+    }, []);
+
+    if (loading) return <p>Loading...</p>;
+    if (error) return <p style={{ color: "red" }}>Error: {error}</p>;
+
+    return (
         <div>
-            Hello world!
+            <h2>Random Cat Fact 🐾</h2>
+            <p>{fact}</p>
+            <button onClick={fetchFact}>New fact</button>
         </div>
     );
 }
