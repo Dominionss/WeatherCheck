@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="Audio control">
-      <change afterPath="$PROJECT_DIR$/weather-app/src/components/Timer.js" afterDir="false" />
+    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="Some useEffect">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/src/components/RandomCatFactFetcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/components/RandomCatFactFetcher.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,7 @@
       <recent name="G:\Programming projects\WebStorm\WeatherCheck\weather-app\src\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Programming projects\WebStorm\WeatherCheck\weather-app\src" />
       <recent name="G:\Programming projects\WebStorm\WeatherCheck\weather-app\src\assets\images" />
       <recent name="G:\Programming projects\WebStorm\WeatherCheck\weather-app\src\styles" />
       <recent name="G:\Programming projects\WebStorm\WeatherCheck\weather-app\src\components" />
@@ -118,7 +118,17 @@
       <workItem from="1753967058118" duration="2454000" />
       <workItem from="1754565485499" duration="3075000" />
       <workItem from="1755184808972" duration="394000" />
-      <workItem from="1755441355428" duration="95000" />
+      <workItem from="1755441355428" duration="310000" />
+      <workItem from="1755526395626" duration="1374000" />
+      <workItem from="1755797682142" duration="2555000" />
+      <workItem from="1756195568972" duration="5072000" />
+      <workItem from="1756309551152" duration="1011000" />
+      <workItem from="1756384762836" duration="4309000" />
+      <workItem from="1756712322999" duration="747000" />
+      <workItem from="1756809761425" duration="2113000" />
+      <workItem from="1756922749542" duration="819000" />
+      <workItem from="1757096774626" duration="35000" />
+      <workItem from="1757146495772" duration="3546000" />
     </task>
     <task id="LOCAL-00001" summary="Created initial project.">
       <option name="closed" value="true" />
@@ -368,7 +378,143 @@
       <option name="project" value="LOCAL" />
       <updated>1754571275787</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="useRef understanding">
+      <option name="closed" value="true" />
+      <created>1755441663724</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1755441663724</updated>
+    </task>
+    <task id="LOCAL-00033" summary="map + list">
+      <option name="closed" value="true" />
+      <created>1755527412465</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1755527412465</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Little enhance of a list component">
+      <option name="closed" value="true" />
+      <created>1755527835625</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1755527835625</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Controlled component with onSubmit callback">
+      <option name="closed" value="true" />
+      <created>1755798937350</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1755798937350</updated>
+    </task>
+    <task id="LOCAL-00036" summary="useState vs useRef">
+      <option name="closed" value="true" />
+      <created>1755800652209</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1755800652209</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Handling forms">
+      <option name="closed" value="true" />
+      <created>1756198450567</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1756198450567</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Cleaning the form">
+      <option name="closed" value="true" />
+      <created>1756198854294</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1756198854294</updated>
+    </task>
+    <task id="LOCAL-00039" summary="onBlur and password touching">
+      <option name="closed" value="true" />
+      <created>1756200567695</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1756200567695</updated>
+    </task>
+    <task id="LOCAL-00040" summary="createContext begin">
+      <option name="closed" value="true" />
+      <created>1756313682038</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1756313682038</updated>
+    </task>
+    <task id="LOCAL-00041" summary="createContext finish">
+      <option name="closed" value="true" />
+      <created>1756385771793</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1756385771793</updated>
+    </task>
+    <task id="LOCAL-00042" summary="createContext with dynamic switch">
+      <option name="closed" value="true" />
+      <created>1756401805165</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1756401805165</updated>
+    </task>
+    <task id="LOCAL-00043" summary="A little bit of colors">
+      <option name="closed" value="true" />
+      <created>1756402569682</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1756402569682</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Preparing for the useState repeating">
+      <option name="closed" value="true" />
+      <created>1756719100404</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1756719100404</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Advanced forms">
+      <option name="closed" value="true" />
+      <created>1756812023167</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1756812023167</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Fetching data - beginning">
+      <option name="closed" value="true" />
+      <created>1756923551845</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1756923551845</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Fetching data - beginning 2">
+      <option name="closed" value="true" />
+      <created>1757096790548</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1757096790548</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Some useEffect">
+      <option name="closed" value="true" />
+      <created>1757147190234</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1757147190234</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,23 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="InteractiveButton component." />
-    <MESSAGE value="Little fix." />
-    <MESSAGE value="Dynamic events and useState." />
-    <MESSAGE value="Synthetic events." />
-    <MESSAGE value="Hooks." />
-    <MESSAGE value="Focus elements." />
-    <MESSAGE value="Counter and states." />
-    <MESSAGE value="Cheat." />
-    <MESSAGE value="Cheat.Second time(" />
-    <MESSAGE value="Cheat.Third time(" />
-    <MESSAGE value="Cheat. Fourth time!" />
-    <MESSAGE value="I will do it..." />
-    <MESSAGE value="Let me tell you something." />
-    <MESSAGE value="Props drilling." />
-    <MESSAGE value="Lifting of state" />
-    <MESSAGE value="useEffect" />
-    <MESSAGE value="Routing, Test component" />
     <MESSAGE value="Correct routing!" />
     <MESSAGE value="Condition rendering" />
     <MESSAGE value="Advanced conditional rendering" />
@@ -411,6 +540,23 @@
     <MESSAGE value="React video player" />
     <MESSAGE value=".gitignore" />
     <MESSAGE value="Audio control" />
-    <option name="LAST_COMMIT_MESSAGE" value="Audio control" />
+    <MESSAGE value="useRef understanding" />
+    <MESSAGE value="map + list" />
+    <MESSAGE value="Little enhance of a list component" />
+    <MESSAGE value="Controlled component with onSubmit callback" />
+    <MESSAGE value="useState vs useRef" />
+    <MESSAGE value="Handling forms" />
+    <MESSAGE value="Cleaning the form" />
+    <MESSAGE value="onBlur and password touching" />
+    <MESSAGE value="createContext begin" />
+    <MESSAGE value="createContext finish" />
+    <MESSAGE value="createContext with dynamic switch" />
+    <MESSAGE value="A little bit of colors" />
+    <MESSAGE value="Preparing for the useState repeating" />
+    <MESSAGE value="Advanced forms" />
+    <MESSAGE value="Fetching data - beginning" />
+    <MESSAGE value="Fetching data - beginning 2" />
+    <MESSAGE value="Some useEffect" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some useEffect" />
   </component>
 </project>
