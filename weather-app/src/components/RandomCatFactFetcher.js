@@ -23,6 +23,8 @@ function RandomCatFactFetcher() {
                 setLoading(false);
             }, 1000);
 
+            console.log("Cat");
+
         } catch (err) {
             setError(err.message);
             setLoading(false); // still stop loading if error
