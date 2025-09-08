@@ -23,7 +23,7 @@ function RandomCatFactFetcher() {
                 setLoading(false);
             }, 1000);
 
-            console.log("Cat");
+            console.log("Timer does not stop this line!");
 
         } catch (err) {
             setError(err.message);
