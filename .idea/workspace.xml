@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="Some useEffect">
+    <list default="true" id="19bd8fbe-74c3-4159-847c-e0ae8009a0b2" name="Changes" comment="Ewww">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/src/components/RandomCatFactFetcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/components/RandomCatFactFetcher.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,47 +127,12 @@
       <workItem from="1756809761425" duration="2113000" />
       <workItem from="1756922749542" duration="819000" />
       <workItem from="1757096774626" duration="35000" />
-      <workItem from="1757146495772" duration="3546000" />
-    </task>
-    <task id="LOCAL-00001" summary="Created initial project.">
-      <option name="closed" value="true" />
-      <created>1748789602699</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1748789602699</updated>
-    </task>
-    <task id="LOCAL-00002" summary="added workspace.xml">
-      <option name="closed" value="true" />
-      <created>1748789705835</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1748789705835</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Hello world program...">
-      <option name="closed" value="true" />
-      <created>1748878801574</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1748878801576</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Cards">
-      <option name="closed" value="true" />
-      <created>1749054887965</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1749054887965</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Random numbers in cards.">
-      <option name="closed" value="true" />
-      <created>1749055881044</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1749055881044</updated>
+      <workItem from="1757146495772" duration="3901000" />
+      <workItem from="1757245739522" duration="2240000" />
+      <workItem from="1757265261473" duration="179000" />
+      <workItem from="1757317756687" duration="62000" />
+      <workItem from="1757401934598" duration="838000" />
+      <workItem from="1757959765519" duration="46000" />
     </task>
     <task id="LOCAL-00006" summary="Multiple cards import.">
       <option name="closed" value="true" />
@@ -514,7 +478,55 @@
       <option name="project" value="LOCAL" />
       <updated>1757147190234</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Fetching data with a timer">
+      <option name="closed" value="true" />
+      <created>1757150961614</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1757150961614</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Fetching data with a timer">
+      <option name="closed" value="true" />
+      <created>1757150977968</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1757150977968</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Some changes">
+      <option name="closed" value="true" />
+      <created>1757265406342</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1757265406342</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Timer">
+      <option name="closed" value="true" />
+      <created>1757317808440</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1757317808440</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Fetching data again">
+      <option name="closed" value="true" />
+      <created>1757403718684</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1757403718686</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Ewww">
+      <option name="closed" value="true" />
+      <created>1757959796522</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1757959796524</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,11 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Correct routing!" />
-    <MESSAGE value="Condition rendering" />
-    <MESSAGE value="Advanced conditional rendering" />
-    <MESSAGE value="Navbar update" />
-    <MESSAGE value="Showing the image" />
     <MESSAGE value="React video player" />
     <MESSAGE value=".gitignore" />
     <MESSAGE value="Audio control" />
@@ -557,6 +564,11 @@
     <MESSAGE value="Fetching data - beginning" />
     <MESSAGE value="Fetching data - beginning 2" />
     <MESSAGE value="Some useEffect" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some useEffect" />
+    <MESSAGE value="Fetching data with a timer" />
+    <MESSAGE value="Some changes" />
+    <MESSAGE value="Timer" />
+    <MESSAGE value="Fetching data again" />
+    <MESSAGE value="Ewww" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ewww" />
   </component>
 </project>
