@@ -26,6 +26,7 @@ function RandomCatFactFetcher() {
             console.log("Timer does not stop this line!");
             console.log("I learned a lot of theory today, i will practice with a randomuser data tomorrow!");
             console.log("Ewww!");
+            console.log("Just set up a schedule and do the work!");
 
         } catch (err) {
             setError(err.message);
